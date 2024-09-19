@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main .navBar{
+    height: 45px;
+    width: 100%;
+    background-color: rgb(85, 33, 33);
+    top: 0;
+    color: antiquewhite;
+   
+}
+.navBar h2{
+    text-align: center;
+    padding: 10px;
+}
+.btn-group button {
+    padding: 10px 24px; 
+    cursor: pointer; 
+    float: left; 
+    height: 45px;
+}
+.address{
+    padding: 10px 24px; 
+    cursor: pointer; 
+    float: left; 
+    height: 45px;
+    margin-left: 120px; 
+    color: rgb(85, 33, 33);
+    width: 80%;
+}
+.address b{
+    margin-right: 880px;
+}
+.d1 {
+    padding: 10px 24px; 
+    cursor: pointer; 
+    height: 55px;
+    width: 28%;
+    margin-left: 120px;
+    margin-top: 45px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    background-color: antiquewhite;
+  
+} 
+.d1:hover{
+    border-bottom: 3px solid rgb(167, 41, 41);
+    transition: 0.5 s;
+
+}
+.d1 h3{
+    margin-top:5px;
+    color: rgb(85, 33, 33);
+}
+.d2 {
+    padding: 10px 24px; 
+    cursor: pointer; 
+    height: 45px;
+    width: 28%;
+    margin-left: 440px;
+    margin-top: -45px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    background-color: antiquewhite;
+    
+    
+}
+.d2:hover{
+    border-bottom: 3px solid rgb(167, 41, 41);
+    transition: 0.5 s;
+
+}
+.d2 h3{
+    margin-top:5px;
+    color: rgb(85, 33, 33);
+}
+.d3 {
+    padding: 10px 24px; 
+    cursor: pointer; 
+    height: 45px;
+    width: 27.3%;
+    margin-left: 795px;
+    margin-top: -45px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    background-color: antiquewhite;
+    
+    
+}
+.d3:hover{
+    border-bottom: 3px solid rgb(167, 41, 41);
+    transition: 0.5 s;
+
+}
+.d3 h3{
+    margin-top:5px;
+    color: rgb(85, 33, 33);
+}
+.loc img{
+    height: 100px;
+    width: 100px;
+    margin-left: 590px;
+    margin-top: 20px;
+}
+.loc h1{
+    color:  rgb(85, 33, 33);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 500px;
+   
+}
+.loc p{
+    padding-top: 25px;
+    margin-left: 430px;
+    font-weight: 800;
+    color: rgb(85, 33, 33);
+}
+.loc button{
+    margin-right: 40px; 
+    padding: 12px 170px 12px 170px;
+    border-radius: 50px;
+    border: none; 
+    background-color: rgb(213, 40, 40);
+    color: white;
+    margin-top: 25px;
+    margin-left: 440px;
+    font-weight: 700;
+}
+.menubar{
+    height: 60px;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid gray;
+    bottom: 0;
+    position: fixed;
+}
+.menubar i{
+    color: rgb(85, 33, 33);
+    
+}
+.menubar i:hover{
+    transform: scale(1);
+    transition: 0.2s;
+    color:red;
+}
+.logoname{
+    margin-top: 10px;
+    font-size: 7px;
+   
+}

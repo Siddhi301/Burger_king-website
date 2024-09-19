@@ -1,0 +1,166 @@
+/* .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  } */
+.Parent .nav{
+    height: 60px;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 1;
+    border-bottom: 1px solid gray;
+    top: 0;
+}
+.Parent .nav .logo{
+    margin-left: 600px;
+}
+.Parent .nav button{
+    padding: 10px 20px 10px 20px; 
+    margin-right: 40px; 
+    border: none;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    justify-content:space-between;
+
+}
+.Parent .button{
+    margin-left: 50px;
+}
+.btn-group button {
+    padding: 10px 24px; 
+    cursor: pointer; 
+    float: left; 
+    height: 45px;
+    
+} 
+.Royal-perk{
+    margin-top: 60px;
+    margin-left: 150px;
+    height: 55px;
+    width: 75%;
+    color: antiquewhite;
+    align-items: center;
+    background-color: rgb(85, 33, 33);
+}
+.Royal-perk h1{
+    margin-top:20px;
+    padding: 10px 24px;     
+    cursor: pointer; 
+    font-family:'Times New Roman';
+}
+.btn-group h3{
+    color: brown;
+}
+.reedem {
+    padding: 10px 24px; 
+    cursor: pointer; 
+    height: 35px;
+    width: 35%;
+    margin-left: 100px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    background-color: antiquewhite;
+    border-bottom: 3px solid rgb(167, 41, 41);
+} 
+.reedem h3{
+    margin-top:10px;
+    color: rgb(85, 33, 33);
+}
+
+.his {
+    padding: 10px 24px; 
+    cursor: pointer; 
+    height: 35px;
+    width: 35%;
+    margin-left: 568px;
+    margin-top: -55.5px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    background-color: antiquewhite;
+    
+    
+}
+.his h3{
+    margin-top:10px;
+    color: rgb(85, 33, 33);
+}
+.royal{
+    height: 290px;
+    width: 45%;
+    background-color:azure;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 350px;
+}
+.royal h2{
+    padding-top: 30px;
+    text-align: center;
+    color:  rgb(85, 33, 33);
+    font-family: fantasy;
+    font-size: 35px;
+   
+}
+.royal p{
+    text-align: center;
+    margin-top: 30px;
+    color:  rgb(85, 33, 33);
+    font-family:"Poppins", sans-serif;
+    font-weight: 500;
+   
+}
+.royal button{
+  
+    margin-right: 40px; 
+    padding: 12px 180px 12px 180px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(213, 40, 40);
+    color: white;
+    margin-top: 25px;
+    margin-left: 50px;
+    font-weight: 800;
+}
+.royal h3{
+    color:  rgb(85, 33, 33);
+    font-family:"Poppins", sans-serif;
+    margin-left: 240px;
+    /* padding-top: 42px; */
+}
+.menubar{
+    height: 60px;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid gray;
+    bottom: 0;
+    position: fixed;
+}
+.menubar i{
+    color: rgb(85, 33, 33);
+    
+}
+.menubar i:hover{
+    transform: scale(1);
+    transition: 0.2s;
+    color:red;
+}
+.logoname{
+    margin-top: 10px;
+    font-size: 7px;
+   
+}
+
+
+
+
+
+
+

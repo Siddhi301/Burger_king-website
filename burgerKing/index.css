@@ -1,0 +1,242 @@
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.Parent .nav{
+    height: 60px;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 1;
+    border-bottom: 1px solid gray;
+    top: 0;
+}
+.Parent .nav .logo{
+    margin-left: 600px;
+}
+.Parent .nav button{
+    padding: 10px 20px 10px 20px; 
+    margin-right: 40px; 
+    border: none;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    justify-content:space-between;
+
+}
+.Parent .button{
+    margin-left: 50px;
+}
+  
+.section{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+} 
+.section .content h1{
+    font-family: fantasy;
+    font-size: 50px;
+    color: rgb(85, 33, 33);
+}
+.section .button1{
+   
+    padding: 12px 52px 12px 52px;
+    border-radius: 30px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 2px;
+    margin-top: 10px;
+    align-items: center;
+   
+}
+.section .button2{
+   
+    padding: 12px 45px 12px 45px;
+    border-radius: 30px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 2px;
+    margin-top: 10px;
+   
+}
+
+.card1{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly; 
+    padding-bottom: 20px;
+    
+}
+
+.card1 .first-card{
+    height: 450px;
+    width: 450px;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+
+.card1 .first-card img{
+    height: 200px;
+    width: inherit;
+    border-radius: 10px;
+    
+}
+.card1 .first-card .heading{
+    padding: 5px;
+    border-radius: 10px;
+    
+
+}
+.card1 .first-card .heading h1{
+    font-weight: 600;
+}
+.card1 .first-card .heading button{
+    padding: 12px 45px 12px 45px;
+    border-radius: 30px;
+    color: red;
+    border-color: red;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.card1 .first-card .heading button:hover{
+    transform: scale(1);
+    transition: 0.2s;
+    background-color: white;
+    color:red;
+    border: 2px solid red; 
+
+}
+
+.card2{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    
+}
+
+.card2 .second-card{
+    height: 450px;
+    width: 450px;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+
+.card2 .second-card img{
+    height: 200px;
+    width: inherit;
+    border-radius: 10px;
+    
+}
+.card2 .second-card .heading{
+    padding: 5px;
+    border-radius: 10px;
+    
+
+}
+.card2 .second-card .heading h1{
+    font-weight: 600;
+}
+.card2 .second-card .heading u{
+    padding-bottom: 90px;
+}
+.card2 .second-card .heading button{
+    padding: 12px 45px 12px 45px;
+    border-radius: 30px;
+    color: red;
+    border-color: red;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.card2 .second-card .heading button:hover{
+    transform: scale(1);
+    transition: 0.2s;
+    background-color: white;
+    color:red;
+    border: 2px solid red;
+
+}
+.footer{
+    height: 400px;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    
+}
+.footer img{
+    height: 350px;
+    width: 350px;
+    margin-left: 250px;
+}
+.footer h5{
+    font-family: fantasy;
+    font-size: 50px;
+    color: rgb(85, 33, 33);
+}
+
+.footer h4{
+   margin-top: -80px;
+}
+.foot .last-content{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    color: antiquewhite;
+    background-color: rgb(85, 33, 33);
+    font-size: small;
+    margin-bottom: 60px;
+    
+    
+}
+.foot .last-content b{
+    margin-top:10px;
+    padding: 10px 24px; 
+}
+.menubar{
+    height: 60px;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid gray;
+    bottom: 0;
+    position: fixed;
+}
+.menubar i{
+    color: rgb(85, 33, 33);
+    
+}
+.menubar i:hover{
+    transform: scale(1);
+    transition: 0.2s;
+    color:red;
+}
+.logoname{
+    margin-top: 10px;
+    font-size: 7px;
+   
+}

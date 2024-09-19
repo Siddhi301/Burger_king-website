@@ -1,0 +1,44 @@
+.nav{
+    height: 60px;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 1;
+
+}
+.nav .logo{
+    margin-left: 600px;
+}
+.nav button{
+    padding: 10px 20px 10px 20px; 
+    margin-right: 40px; 
+    border: none;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    justify-content:space-between;
+
+}
+.button{
+    margin-left: 50px;
+}
+.about{
+    height: 800px;
+    width: 800px;
+    align-items: center;
+    border: black;
+    background-color: antiquewhite;
+    color: rgb(69, 46, 46);
+    margin-left: 190px;
+}
+.about h3{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about hr{
+    border: 1px solid rgb(15, 15, 15);
+}
